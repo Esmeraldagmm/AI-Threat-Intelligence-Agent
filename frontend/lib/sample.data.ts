@@ -1,4 +1,4 @@
-import { ThreatReport } from "@/types/threat-report";
+import { ThreatReport } from "@/types/threat-reports";
 
 // Sample data for development and demo purposes
 // This matches the JSON schema from your Python backend
