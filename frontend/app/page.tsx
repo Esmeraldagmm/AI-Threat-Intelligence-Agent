@@ -22,8 +22,7 @@ export default function Dashboard() {
 
     try {
       //fetch from FastAPI backend
-      const API_URL =
-        process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+      const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
       const response = await fetch(`${API_URL}/api/reports/latest`);
 
