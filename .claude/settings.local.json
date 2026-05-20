@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python -m uvicorn api:app --host 127.0.0.1 --port 8000)",
+      "Bash(npx tsc *)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(taskkill /F /IM python.exe)",
+      "PowerShell(Stop-Process *)",
+      "Bash(python main.py)"
+    ]
+  }
+}

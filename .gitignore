@@ -1,0 +1,11 @@
+# Python
+backend/venv
+backend/.env
+__pycache__
+
+# Next
+frontend/.next
+node_modules
+
+# Reports
+backend/reports/*.json
