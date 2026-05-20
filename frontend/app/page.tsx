@@ -22,8 +22,6 @@ export default function Dashboard() {
 
     try {
       //fetch from FastAPI backend
-      //locally: uses localhost
-      //deployed: use vercel url
       const API_URL =
         process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 
